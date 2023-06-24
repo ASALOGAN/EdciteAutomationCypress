@@ -1,3 +1,6 @@
+// This code can be used to login to the Teacher, student and Master account on the Edcite test server
+// You just need to enter the user id and password
+
 describe('Edcite Test Server Login', () => {
     const username = ''; // enter your userid
     const password = ''; // enter your password
