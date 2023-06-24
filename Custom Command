@@ -1,0 +1,27 @@
+// Custom command to log in to Edcite
+Cypress.Commands.add('login', (username, password) => {
+  // Visit the Edcite login page
+  cy.visit('https://edtest.edcite-dev.com/usr/signin.html')
+  // Check that the URL includes the correct domain
+  cy.url().should('include', 'edtest.edcite-dev.com')
+  // Type the username into the username field
+  cy.get('#userid').type(username)
+  // Type the password into the password field
+  cy.get('#password').type(password)
+  // Check that the username field has the correct value
+  cy.get('#userid').should('have.value', username)
+  // Check that the password field has the correct value
+  cy.get('#password').should('have.value', password)
+  // Click the login button
+  cy.get('#loginBtn').click()
+  // Check that the URL includes the correct path after logging in
+  cy.url().should('include', 'https://edtest.edcite-dev.com/mstr/MasterHome')
+})
+
+// Custom command to create an assignment
+Cypress.Commands.add('createAssignment', (name) => {
+  cy.get('#createMABtn').click();
+  cy.url().should('contains', 'https://edtest.edcite-dev.com/mstr/MasterAssignmentEditor');
+  cy.get('.assnname').type(name);
+  cy.get('.switch6-light > :nth-child(2) > :nth-child(2)').click();
+});
