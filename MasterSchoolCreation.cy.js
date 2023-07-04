@@ -3,10 +3,11 @@ describe('Create School In Master', () => {
   // Define a test case
   it('Log in to Master account and create a school', () => {
     // Login to Master Account
-    const username = 'masterarunkumar';
-    const password = 'Arun@2001';
+    const username = ''; // Enter the Username of Master Account
+    const password = ''; // Enter the password of Master Account
 
     // Read city data from JSON file
+    // The JSON File is stored in cypress -> fixtures
     cy.fixture('SchoolData').then((data) => {
       // Select a random city entry
       const randomCityData = Cypress._.sample(data);
