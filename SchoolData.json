@@ -1,0 +1,123 @@
+// save the JSON file in fixures
+[
+  {
+    "city": "Mumbai",
+    "address": "123 Main Street, Andheri East",
+    "state": "Maharashtra",
+    "zip": "400001"
+  },
+  {
+    "city": "Delhi",
+    "address": "456 Elm Street, Connaught Place",
+    "state": "Delhi",
+    "zip": "110001"
+  },
+  {
+    "city": "Bangalore",
+    "address": "789 Oak Street, Koramangala",
+    "state": "Karnataka",
+    "zip": "560001"
+  },
+  {
+    "city": "Kolkata",
+    "address": "321 Maple Street, Park Street",
+    "state": "West Bengal",
+    "zip": "700001"
+  },
+  {
+    "city": "Chennai",
+    "address": "567 Pine Street, T Nagar",
+    "state": "Tamil Nadu",
+    "zip": "600001"
+  },
+  {
+    "city": "Hyderabad",
+    "address": "890 Cedar Street, Banjara Hills",
+    "state": "Telangana",
+    "zip": "500001"
+  },
+  {
+    "city": "Ahmedabad",
+    "address": "123 Oak Street, Vastrapur",
+    "state": "Gujarat",
+    "zip": "380001"
+  },
+  {
+    "city": "Pune",
+    "address": "456 Maple Street, Koregaon Park",
+    "state": "Maharashtra",
+    "zip": "411001"
+  },
+  {
+    "city": "Jaipur",
+    "address": "789 Pine Street, Malviya Nagar",
+    "state": "Rajasthan",
+    "zip": "302001"
+  },
+  {
+    "city": "Lucknow",
+    "address": "321 Cedar Street, Gomti Nagar",
+    "state": "Uttar Pradesh",
+    "zip": "226001"
+  },
+  {
+    "city": "Surat",
+    "address": "567 Oak Street, Adajan",
+    "state": "Gujarat",
+    "zip": "395001"
+  },
+  {
+    "city": "Kanpur",
+    "address": "890 Maple Street, Civil Lines",
+    "state": "Uttar Pradesh",
+    "zip": "208001"
+  },
+  {
+    "city": "Nagpur",
+    "address": "123 Pine Street, Dharampeth",
+    "state": "Maharashtra",
+    "zip": "440001"
+  },
+  {
+    "city": "Indore",
+    "address": "456 Cedar Street, Vijay Nagar",
+    "state": "Madhya Pradesh",
+    "zip": "452001"
+  },
+  {
+    "city": "Thane",
+    "address": "789 Oak Street, Ghodbunder Road",
+    "state": "Maharashtra",
+    "zip": "400601"
+  },
+  {
+    "city": "Bhopal",
+    "address": "321 Maple Street, MP Nagar",
+    "state": "Madhya Pradesh",
+    "zip": "462001"
+  },
+  {
+    "city": "Visakhapatnam",
+    "address": "567 Pine Street, Dwaraka Nagar",
+    "state": "Andhra Pradesh",
+    "zip": "530001"
+  },
+  {
+    "city": "Patna",
+    "address": "890 Cedar Street, Frazer Road",
+    "state": "Bihar",
+    "zip": "800001"
+  },
+  {
+    "city": "Vadodara",
+    "address": "123 Oak Street, Alkapuri",
+    "state": "Gujarat",
+    "zip": "390001"
+  },
+  {
+    "city": "Ludhiana",
+    "address": "456 Maple Street, Model Town",
+    "state": "Punjab",
+    "zip": "141001"
+  }
+]
