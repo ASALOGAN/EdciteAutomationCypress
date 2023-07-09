@@ -1,3 +1,12 @@
+// Create a json file called teacher.json
+// [{
+//   "TeacherName": "",
+//   "UserId": "",
+//   "Password": "",
+//   "Email": "",
+//   "Subject": "",
+//   "State": ""
+// }]
 describe('Create Teacher', () => {
   const username = ''; //Enter User Name
   const password = ''; //Enter User Name
