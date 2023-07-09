@@ -1,3 +1,5 @@
+// Before running this code, make sure to install the cypress-file-upload package 
+// by running: npm install --save-dev cypress-file-upload
 import 'cypress-file-upload';
 
 describe('Upload Profile Pic', () => {
