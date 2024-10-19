@@ -1,7 +1,9 @@
-# EdciteAutomationCypress
-Here we will be automation Edcite
+# Edcite Automation with Cypress
 
-# This is a project for Test Automation on Edcite using Cypress
+This project is for test automation on Edcite using Cypress.
 
-# To use the custom command paste it into commands.json file
-# Path: cypress ---> Support ---> commands.json
+## Custom Commands
+
+To use the custom commands, paste them into the `commands.json` file.
+
+**Path:** `cypress/support/commands.json`
